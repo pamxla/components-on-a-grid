@@ -8,6 +8,13 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+
 img {
   width: 100%;
 }
