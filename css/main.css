@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia;
+  line-height: 1.5
 }
 
 *,
@@ -13,6 +15,7 @@ img {
 }
 
 body {
+  margin: 0
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
