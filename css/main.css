@@ -38,7 +38,7 @@ h1 {
 
 h2 {
   color: #30658d;
-  font-family: Patua One sans-serif;
+  font-family: Patua One;
 
 }
 
@@ -76,6 +76,7 @@ ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  color: #f2f1ed
 }
 
 a {
