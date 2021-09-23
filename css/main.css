@@ -21,9 +21,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas:
-  "header header"
-  "figure1 figure2";
+  grid-template-areas: "header header" "figure1 figure2";
   gap: 1rem;
 }
 
@@ -94,6 +92,7 @@ ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  font-family: "Patua One", sans-serif;
 }
 
 a {
