@@ -12,6 +12,7 @@ html {
 
 img {
   width: 100%;
+  Margin: 1rem;
 }
 
 body {
@@ -58,6 +59,13 @@ header img {
 main {
   grid-column: 1;
   grid-row: 2;
+}
+
+main img{
+  margin: 0;
+  width: 20rem;
+  display: flex;
+  justify-content: flex-start;
 }
 
 nav {
