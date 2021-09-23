@@ -38,6 +38,7 @@ h1 {
 
 h2 {
   color: #30658d;
+  font-family: Patua One;
 
 }
 
@@ -67,7 +68,7 @@ figure:last-child {
 }
 
 nav {
-  grid-column: 2;
+  grid-column: 2/ -1;
   grid-row: 1;
 }
 
