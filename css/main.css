@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
+  font-family: "Patua One" sans-serif;
   line-height: 1.5;
 }
 
@@ -30,10 +30,6 @@ h1 {
   z-index: 1;
   grid-row: 2;
   grid-column: 1;
-}
-
-.logo {
-
 }
 
 h2 {
