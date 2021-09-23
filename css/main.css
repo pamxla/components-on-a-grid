@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: Georgia, serif;
   line-height: 1.5;
+  background-color: #f2f1ed;
 }
 
 *,
@@ -12,10 +13,11 @@ html {
 
 img {
   width: 100%;
+  margin: 1rem;
 }
 
 body {
-  margin: 1rem;
+  margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -86,7 +88,6 @@ ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  color: #f2f1ed;
 }
 
 a {
